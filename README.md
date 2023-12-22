@@ -34,31 +34,31 @@ The application will be available at [http://localhost:5000](http://localhost:50
 
 ### Get All People
 
-- **URL**: `/people`
+- **URL**: `/personas`
 - **Method**: `GET`
 - **Description**: Returns the list of all registered people.
 
 ### Get Person by ID
 
-- **URL**: `/people/<int:id>`
+- **URL**: `/personas/<int:id>`
 - **Method**: `GET`
 - **Description**: Returns information about a specific person based on their ID.
 
 ### Add New Person
 
-- **URL**: `/people`
+- **URL**: `/personas`
 - **Method**: `POST`
 - **Description**: Adds a new person using the information provided in the request body.
 
 ### Update Person by ID
 
-- **URL**: `/people/<int:id>`
+- **URL**: `/personas/<int:id>`
 - **Method**: `PUT`
 - **Description**: Updates the information of a specific person based on their ID, using the information provided in the request body.
 
 ### Delete Person by ID
 
-- **URL**: `/people/<int:id>`
+- **URL**: `/personas/<int:id>`
 - **Method**: `DELETE`
 - **Description**: Deletes a person based on their ID.
 
