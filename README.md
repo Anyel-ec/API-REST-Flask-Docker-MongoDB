@@ -2,6 +2,30 @@
 
 This project implements a simple API using Flask to manage information about people. It allows basic operations such as obtaining the list of people, retrieving information about a person by their ID, adding a new person, updating a person's information, and deleting a person by their ID.
 
+
+**Select Language:**
+- [Español (Spanish)](README-es.md)
+- [English](README.md)
+
+## Results
+### Docker Up 
+![Alt text](docs/up%20docker.PNG) 
+### Get  
+![Alt text](docs/obtener.PNG) 
+### Get by ID
+![Alt text](docs/id.PNG) 
+### Add   
+![Alt text](docs/post.PNG) 
+### Update 
+![Alt text](docs/actualizar.PNG) 
+### Eliminar 
+![Alt text](docs/delete.PNG) 
+### Docker MongoDB 
+![Alt text](docs/docker%20mongo.PNG) 
+### Docker App 
+![Alt text](docs/docker%20app.PNG) 
+
+
 ## Project Structure
 
 - **app.py**: Contains the main code of the Flask application.
